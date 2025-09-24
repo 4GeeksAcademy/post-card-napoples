@@ -1,0 +1,45 @@
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+body {
+	background-color: black;
+}
+
+.postcard {
+	background-color: rgb(255, 255, 255);
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+.postcard-header h1 {
+	width: 20px;
+	height: 30px;
+}
+.postcard-body {
+	display: flex;
+	justify-content: space-between;
+}
+
+.body-left {
+	width: 200px;
+}
+
+.body.right {
+width: 200px;
+}   
+
+.postcard-footer {
+	text-align: center;
+}
